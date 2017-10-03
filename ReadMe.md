@@ -14,3 +14,18 @@
     * [MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/template)
     * [stackoverflow](http://stackoverflow.com/a/35385518/1262580)
     
+* `className,classList`
+
+    `className`属性用来读写当前元素节点的class属性。它的值是一个字符串，每个class之间用空格分割。
+
+    `classList`属性则返回一个类似数组的对象，当前元素节点的每个class就是这个对象的一个成员。
+    
+    `classList`方法：
+    ```angular2html
+      add()：增加一个class。
+      remove()：移除一个class。
+      contains()：检查当前元素是否包含某个class。
+      toggle()：将某个class移入或移出当前元素。
+      item()：返回指定索引位置的class。
+      toString()：将class的列表转为字符串。
+    ```
